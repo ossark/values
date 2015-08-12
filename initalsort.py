@@ -25,11 +25,7 @@ with open(sys.argv[1], "r") as file:
     choice = None
 
 values = sorted(values, key=lambda values: values[1])
-#print values
 
 for value in values:
   print value[0]
 
-#values = [str(i[0]) for i in values]
-#print values
-#print '%s' % '\n'.join(map(str, values))
